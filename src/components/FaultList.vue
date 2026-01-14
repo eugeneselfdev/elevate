@@ -43,7 +43,7 @@ const items = computed(() => {
                         <td class="px-6 py-2 flex-none md:table-cell md:w-auto before:font-bold before:mr-2 before:block md:before:hidden font-bold">
                                 {{ item.co }}
                         </td>
-                        <td class="px-1 md:px-4 py-2 md:py-6 flex-1 md:table-cell  before:font-bold before:mr-2 before:block md:before:hidden font-bold">
+                        <td class="px-6 py-2 md:py-6 flex-1 md:table-cell  before:font-bold before:mr-2 before:block md:before:hidden font-bold">
                             <RouterLink :to="`/fault/${item.id}`">
                                 {{ item.na }}
                             </RouterLink>
